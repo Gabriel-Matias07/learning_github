@@ -1,83 +1,96 @@
-/* pagina perfil css*/
-body{
+/* Página de Perfil - CSS */
+
+body {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #f8f8f8;
 }
-.perfil{
+
+.perfil {
     width: 300px;
     padding: 20px;
     text-align: center;
     background-color: white;
     border-radius: 10px;
     margin: auto;
-    box-shadow: 0px 4 px 8px rgba(0, 0, 0, 2);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
-.perfil img{
+
+.perfil img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid rgb(197, 36, 170);
 }
-button{
-    padding: 10 px 0%;
+
+button {
+    padding: 10px;
     font-size: 18px;
     background-color: rgb(197, 36, 170);
-    color: black;
+    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin: 0 15px;
+    margin: 10px 0;
+    width: 100%;
 }
-button:hover{
-    background-color: #0056b3;
 
+button:hover {
+    background-color: #0056b3;
 }
-nav{
+
+nav {
     text-align: center;
     background-color: rgb(197, 36, 170);
     padding: 10px 0;
-    border: none;
     border-radius: 5px;
-    
-
 }
-nav a{
+
+nav a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 18px;
     margin: 0 15px;
     display: inline-block;
-    transition: color 0.3 ease;
+    transition: color 0.3s ease;
 }
+
 nav a:hover {
     color: #0056b3;
-
 }
-form{
+
+form {
     width: 300px;
     margin: 20px auto;
     padding: 20px;
     background-color: #f4f4f4;
     border-radius: 10px;
-
 }
-label{
+
+label {
     display: block;
     font-weight: bold;
     margin-top: 10px;
 }
-input, textarea{
-    width: 100px;
+
+input, textarea {
+    width: 100%;
     padding: 8px;
     margin-top: 5px;
     border: 1px solid #ccc;
-
+    border-radius: 5px;
+    font-size: 16px;
 }
-button {
+
+textarea {
+    resize: none;
+}
+
+form button {
     width: 100%;
     padding: 10px;
     margin-top: 15px;
@@ -89,7 +102,7 @@ button {
     cursor: pointer;
     transition: background 0.3s;
 }
-button:hover{
+
+form button:hover {
     background-color: #0056b3;
-    
 }

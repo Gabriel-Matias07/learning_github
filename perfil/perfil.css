@@ -5,7 +5,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f8f8f8;
+    background-color: rgb(241, 213, 239);
 }
 
 .perfil {
@@ -29,7 +29,7 @@ body {
 button {
     padding: 10px;
     font-size: 18px;
-    background-color: rgb(197, 36, 170);
+    background-color: rgb(233, 80, 207); 
     color: white;
     border: none;
     border-radius: 5px;
@@ -41,7 +41,8 @@ button {
 
 
 button:hover {
-    background-color: #0056b3;
+    background-color: rgb(197, 36, 170);
+
 }
 button a{
     text-decoration: none;
@@ -53,7 +54,7 @@ form {
     width: 300px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #e7e2e2;
+    background-color: white;
     border-radius: 10px;
 }
 
@@ -97,7 +98,6 @@ form button {
 }
 
 form button:hover {
-    font-size: 17px;
     border-radius: 7px;
     background-color: rgb(197, 36, 170);
 }

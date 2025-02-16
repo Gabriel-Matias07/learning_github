@@ -1,8 +1,14 @@
 body{
     background-color: greenyellow;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 div{
     background-color: rgb(47, 124, 24);
-    position: absolute
+   padding: 20px;
+   border-radius: 8px;
+   text-align: center;
 }

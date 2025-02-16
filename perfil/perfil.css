@@ -1,1 +1,95 @@
 /* pagina perfil css*/
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.perfil{
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 0px 4 px 8px rgba(0, 0, 0, 2);
+}
+.perfil img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid rgb(197, 36, 170);
+}
+button{
+    padding: 10 px 0%;
+    font-size: 18px;
+    background-color: rgb(197, 36, 170);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 15px;
+}
+button:hover{
+    background-color: #0056b3;
+
+}
+nav{
+    text-align: center;
+    background-color: rgb(197, 36, 170);
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    
+
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin: 0 15px;
+    display: inline-block;
+    transition: color 0.3 ease;
+}
+nav a:hover {
+    color: #0056b3;
+
+}
+form{
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+
+}
+label{
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+input, textarea{
+    width: 100px;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+
+}
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #007BFF; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+button:hover{
+    background-color: #0056b3;
+    
+}
